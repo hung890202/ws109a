@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+<style>
+@import url(./style2.css);
+@import url(./blog.css);
+</style>
+
+</head>
+<body>
+  
+<div id="topbar">
+    <a href="blog.html">Blog</a>
+    <a onclick="document.getElementById('box1').style.display='block'" style="width:auto;">...</a>
+
+</div>
+
+<div class="icon">
+    <a href="https://line.me/ti/p/NdZd_5Cxva"> <i class="socicon-line"> </i> </a> 
+    <a href="https://www.facebook.com/bir.hung.10"> <i class="socicon-facebook"> </i> </a>  
+    <a href="https://www.instagram.com/hung890202/"> <i class="socicon-instagram"> </i> </a>  
+    <a href="https://www.youtube.com/watch?v=Q00Ycy-9_n8"> <i class="socicon-youtube"> </i> </a> 
+</div>
+
+<div id="box1" class="modal">
+  <form class="modal-content" action="/action_page.php" method="post">
+  <span onclick="document.getElementById('box1').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <div id="box2">
+      <a href="home.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="mylife.html">My Life</a>
+      <a href="dog.html">Dog</a>
+      <span href="blog.html" class="special">Blog</span>
+    </div>
+  </form>
+</div>
+
+<div class="contain">
+  <ul id="list"></ul>
+</div>
+
+<div class="wrap">
+  <footer class="footer">
+    <textarea id="text" placeholder="Type message.."></textarea>
+    <input type="button" value="Add comment">
+  </footer>
+</div> 
+
+</style>
+<script type="text/javascript" src="blog.js"></script>
+<script src="topbar.js"></script> 
+<script src="getmodal.js"></script>
